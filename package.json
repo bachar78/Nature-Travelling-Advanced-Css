@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for nature",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bachar78/Nature-Travelling-Advanced-Css.git"
+  },
+  "author": "Bachar Daowd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bachar78/Nature-Travelling-Advanced-Css/issues"
+  },
+  "homepage": "https://github.com/bachar78/Nature-Travelling-Advanced-Css#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
