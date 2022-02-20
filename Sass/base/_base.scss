@@ -3,7 +3,6 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -17,5 +16,13 @@ html {
   }
   @include respond(big-desktop) {
     font-size: 75%; //1rem = 12px => 12/16 * 100 = 75%
+  }
+}
+
+body {
+  padding: 3rem;
+  box-sizing: border-box;
+  @include respond(tab-port) {
+    padding: 0;
   }
 }
