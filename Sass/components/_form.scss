@@ -2,7 +2,9 @@
   &__group:not(:last-child) {
     margin-bottom: 2rem;
   }
-
+@include respond(tab-port) {
+  width: 100%;
+}
   &__input {
     font-size: 1.5rem;
     padding: 1.5rem 2rem;
@@ -15,6 +17,12 @@
     width: 90%;
     display: block;
     transition: all 0.3s;
+
+    @include respond (tab-port) {
+      width: 95%;
+       
+     }
+
     &:focus {
       outline: none;
       box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
@@ -48,6 +56,10 @@
   &__radio-group {
     display: inline-block;
     width: 49%;
+    @include respond (tab-port) {
+     width: 100%;
+      margin-bottom: 2rem;
+    }
   }
   &__radio-input {
       display: none;
@@ -65,8 +77,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 0;
-    top: -0.4rem;
+    left: -0.6rem;
+    top: -0.8rem;
     &::after {
       content: '';
       height: 1.3rem;
