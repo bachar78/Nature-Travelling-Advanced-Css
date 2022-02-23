@@ -4,7 +4,8 @@
   "description": "Landing page for nature",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w", 
+    "devserver": "live-server"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/bachar78/Nature-Travelling-Advanced-Css#readme",
   "dependencies": {},
   "devDependencies": {
+    "concat": "^1.0.3",
     "node-sass": "^7.0.1"
   }
 }
